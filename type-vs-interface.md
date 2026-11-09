@@ -13,6 +13,6 @@ interface User { <br>
     isActive: boolean<br>
 }
 
-type Value = string | number | boolean
-let value:Value = "M"
+type Value = string | number | boolean <br>
+let value:Value = "M" <br>
 value = 12
