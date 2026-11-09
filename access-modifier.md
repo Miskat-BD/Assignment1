@@ -40,6 +40,19 @@ class Student extends Person{<br>
 const student = new Student("Khaled")<br>
 console.log(student.getName());
 
+4. Readonly: This is only readable and it doesn't changable.
+
+<br>
+Example of Public:<br>
+
+class User { <br>
+constructor(readonly name : string){}<br> 
+}<br> 
+
+const user = new User("Miskat")<br>
+user.name -> not changable <br>
+console.log(user.name);<br> -> only read
+
 
 
 
