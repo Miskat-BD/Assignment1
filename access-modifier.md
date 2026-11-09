@@ -20,9 +20,26 @@ console.log(user.name);<br>
 Example of Private:<br>
 
 class User { <br>
-constructor(public name : string){}<br> 
+constructor(private name : string){}<br> 
 }<br> 
 
 const user = new User("Miskat")<br>
-console.log(user.name);<br>  //Error
+console.log(user.name);<br>  ->Error
+
+3. Protected: This is access in it's own class and it's extended child class.It's can't access in other class .
+<br>
+Example of Protected:<br>
+class Person {<br>
+    constructor(protected name: string){}<br>
+}<br>
+class Student extends Person{<br>
+    getName (){<br>
+        return this.name<br>
+    }<br>
+}<br>
+const student = new Student("Khaled")<br>
+console.log(student.getName());
+
+
+
 

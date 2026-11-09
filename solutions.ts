@@ -72,7 +72,7 @@ class Manager extends Employee {
         super(name, baseSalary)
     }
 
-    getRoleInfo(){
+    getRoleInfo() {
         return `Manager of ${this.department}: ${this.name}`
     }
 }
@@ -92,7 +92,6 @@ const validateAgeAsync = async (age: number): Promise<string> => {
         }
     })
 }
-
 
 
 
