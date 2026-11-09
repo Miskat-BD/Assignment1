@@ -8,13 +8,6 @@ The assignment covers fundamental and intermediate TypeScript concepts, includin
 
 It also includes two blog posts discussing important TypeScript topics.
 
-## Assignment Requirements
-
-The assignment was provided by Apollo Level 2 Web Development.
-
-- **Requirement Repository:** [B8A1 - Assignment 1](https://github.com/Apollo-Level2-Web-Dev/B8A1)
-- **Solution Repository:** [Assignment1](https://github.com/Miskat-BD/Assignment1)
-
 ## Blog Posts
 
 Here are my two blog posts written as part of this assignment:
