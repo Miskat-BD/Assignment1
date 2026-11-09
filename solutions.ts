@@ -44,6 +44,9 @@ const getPopularCourses = (courses: Course[], minStudents: number): Course[] => 
     return popularCourses
 }
 
+
+
+
 const pluckValues = <T, K extends keyof T>(users: T[], key: K): T[K][] => {
     return users.map(user => user[key])
 }
@@ -89,6 +92,8 @@ const validateAgeAsync = async (age: number): Promise<string> => {
         }
     })
 }
+
+
 
 
 
