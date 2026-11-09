@@ -7,10 +7,10 @@ Interface usually used for create objects structure. Interface is allows redecla
 Types is usually used object, string, number, union , tuple etc. Types is not allow redeclared. Beacuse declaration merging is not support in types alias.
 
 ## Example :
-interface User { \\
-    id: number, \\
-    name: string,
-    isActive: boolean
+interface User { <br>
+    id: number, <br>
+    name: string,<br>
+    isActive: boolean<br>
 }
 
 type Value = string | number | boolean
